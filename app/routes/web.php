@@ -11,6 +11,12 @@
 |
 */
 
+
+
 $router->get('/', function () use ($router) {
     return $router->app->version();
+});
+
+$router->get('/Welcome', function () use ($router) {
+    return 'Hello Michel, ba en fait j\'ai l\'impression de faire le "hackathon" bis, c\'est cool ' ;
 });

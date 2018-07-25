@@ -12,6 +12,8 @@
 */
 
 $app = require __DIR__.'/../bootstrap/app.php';
+// $app -> get ('/Welcome','Welcome@get');
+// $app->get('/Welcome/', 'Welcome@show');
 
 /*
 |--------------------------------------------------------------------------
